@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -oE "^[[:alnum:]\_-]*:.*:.*:.*:.*:[[:alnum:]\_-]*" passwd | sort | cut -d ":" -f1,6
+grep -oE "^[[:alnum:]\_-]*:.*:.*:.*:.*:[[:alnum:]\_-]*" /etc/passwd | sort | cut -d ":" -f1,6
