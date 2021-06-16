@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1 | paste -d "\0" - - - - - - - - -
+cut -c1 | paste -sd "\0" -
