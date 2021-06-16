@@ -1,0 +1,2 @@
+#!/bin/bash
+sort | rev | uniq -c -f6 | sort -rk1 | rev | tail +2 | head -n 11 | cut -f1 | tr -d [:blank:]
