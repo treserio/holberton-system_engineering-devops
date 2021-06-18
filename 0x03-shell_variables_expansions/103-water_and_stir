@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($WATER#water + $STIR#stir))
+thing=$(($WATER#water + $STIR#stir)) | echo $(($thing#behlnort))
