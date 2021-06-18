@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -g HOLBERTON="Betty"
+export HOLBERTON="Betty"
