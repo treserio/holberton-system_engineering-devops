@@ -1,2 +1,0 @@
-#!/bin/bash
-tr "A-MN-Za-mn-z" "M-AZ-Na-mn-z"
