@@ -4,5 +4,5 @@ x=0
 until [ $x -eq 10 ]
 do
     echo "Holberton School"
-    x=$((x+1))
+    ((x++))
 done
