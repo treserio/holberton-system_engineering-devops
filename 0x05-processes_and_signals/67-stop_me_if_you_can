@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# He's immortal!!!
+pkill -f 7-highlander
