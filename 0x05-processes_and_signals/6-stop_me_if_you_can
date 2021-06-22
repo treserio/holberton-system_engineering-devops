@@ -1,1 +1,3 @@
 #!/usr/bin/env bash
+# to kill or not to kill that is the question
+pkill -f 4-to_infinity_and_beyond
