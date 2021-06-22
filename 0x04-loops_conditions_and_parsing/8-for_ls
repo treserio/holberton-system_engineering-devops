@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-#cut the folder contents after the -
-for thing in $(ls)
+# cut the folder contents after the -
+for thing in ./*
 do
-    echo $thing | cut -d "-" -f2
+    echo "$thing" | cut -d "-" -f2
 done		    
