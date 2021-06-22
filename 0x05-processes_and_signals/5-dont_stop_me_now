@@ -1,1 +1,2 @@
 #!/usr/bin/env bash
+kill($(gprep "4-to_infinity_and_beyond"))
