@@ -4,8 +4,10 @@ if [ -a "holbertonschool" ]
 then
     if [ ! -s "holbertonschool" ]
     then
+	echo "holbertonschool file exists"
 	echo "holbertonschool file is empty"
     else
+	echo "holbertonschool file exists"
 	echo "holbertonschool file is not empty"
     fi
     if [ -f "holbertonschool" ]
