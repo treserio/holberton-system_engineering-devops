@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# infinite loop
 while TRUE do
     echo "To infinity and beyond"
 done
