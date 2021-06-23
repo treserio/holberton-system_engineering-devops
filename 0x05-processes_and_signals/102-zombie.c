@@ -26,7 +26,7 @@ int main(void) {
         if (id < 0) {
             continue;
         }
-        // if parent = 0? seems the thing to do is exit?
+        
         else if (id == 0) {
             exit(0);
         } else {
