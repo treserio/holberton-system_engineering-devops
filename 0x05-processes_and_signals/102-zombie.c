@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
 
 // requirement after 5 zombies are created
 int infinite_while(void)
@@ -23,7 +25,7 @@ int main(void) {
         else if (id == 0) {
             exit(0);
         } else {
-            printf("Zombie process created, PID: %s\n" id);
+            printf("Zombie process created, PID: %s\n", id);
         }        
     }
     infinite_while();
