@@ -4,6 +4,7 @@
 #include <unistd.h>
 /**
  * infinite_while - runs an infinite loop for testing
+ *
  * Return: always 0
  */
 int infinite_while(void)
@@ -16,6 +17,7 @@ int infinite_while(void)
 }
 /**
  * main - entry point for program
+ *
  * Return: always 0
  */
 int main(void) {
