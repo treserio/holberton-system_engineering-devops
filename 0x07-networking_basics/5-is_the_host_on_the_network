@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# pings an IP passed by arg
+#pings an IP passed by arg
 if [ "$#" -eq 1 ]
 then
     ping -c 5 "$1"
