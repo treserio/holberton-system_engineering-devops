@@ -1,0 +1,6 @@
+host h-school
+		HostName 35.190.162.102
+		User ubuntu
+		PasswordAuthentication No
+		StrictHostKeyChecking No
+		IdentityFile ~/.ssh/school
