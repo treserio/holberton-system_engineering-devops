@@ -1,5 +1,5 @@
 host h-school
-		HostName 35.190.162.102
+		HostName 34.73.219.167
 		User ubuntu
 		PasswordAuthentication No
 		StrictHostKeyChecking No
