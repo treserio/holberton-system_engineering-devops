@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# setup nginx server with html file
+# setup nginx server with html file + redirect
 sudo apt-get -y update
 sudo apt-get install -y nginx
 sudo ufw allow 'Nginx HTTP'
