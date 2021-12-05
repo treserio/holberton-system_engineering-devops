@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# setup nginx server with html file
+sudo apt-get -y update
+sudo apt-get install -y nginx
+sudo ufw allow 'Nginx HTTP'
+sudo sh -c 'echo "Hello World" > /var/www/html/index.html'
+target='^\tlocation / {'
+replace='\tlocation /redirect_me {\n\t\treturn 301 \$scheme://youtu.be/A311CnTjfos;\n\t}\n\n\tlocation / {'
+sudo sed -i "s@$target@$replace@" /etc/nginx/sites-available/default
+sudo service nginx restart
