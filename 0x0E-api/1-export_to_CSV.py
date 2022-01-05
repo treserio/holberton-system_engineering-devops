@@ -28,8 +28,8 @@ if __name__ == '__main__':
             csv_inp = csv.writer(f, quoting=csv.QUOTE_ALL)
             for td in todos:
                 csv_inp.writerow([
-                    usr.get('id'),
                     sys.argv[1],
+                    usr.get('username'),
                     td.get('completed'),
                     td.get('title')
                 ])
