@@ -25,7 +25,7 @@ if __name__ == '__main__':
 
         # write to csv file, "ID","NAME","Task completed","Task title"
         with open('{}.csv'.format(sys.argv[1]), 'w') as f:
-            csv_inp = csv.writer(f)
+            csv_inp = csv.writer(f, quoting=csv.QUOTE_ALL)
             for td in todos:
                 csv_inp.writerow([
                     usr.get('id'),
