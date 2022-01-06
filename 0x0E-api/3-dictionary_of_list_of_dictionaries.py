@@ -24,11 +24,13 @@ if __name__ == '__main__':
 
     # write to json file
     with open('todo_all_employees.json', 'w') as f:
-        jdump = {usr.get('id'): [{
-            'username': usr.get('username'),
-            'task': td.get('title'),
-            'completed': td.get('completed')
-        } for td in all_todos if usr.get('id') == td.get('userId')
-        ] for usr in all_users
-        }
-        json.dump(jdump, f)
+        json.dump(
+            {usr.get('id'): [{
+                'username': usr.get('username'),
+                'task': td.get('title'),
+                'completed': td.get('completed')
+            } for td in all_todos if usr.get('id') == td.get('userId')
+            ] for usr in all_users
+            },
+            f
+        )
