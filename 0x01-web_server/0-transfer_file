@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # transfer file using scp $1=path, $2=dest ip, $3=uname, $4=key path
-if [ $# != 4 ]
+if [[ $# != 4 ]]
 then
     echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
 else
